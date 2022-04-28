@@ -1,0 +1,33 @@
+h1 {
+    color: #0a69ad;
+}
+
+.col-md-4 {
+    padding: 20px;
+    background-color: #f3df0a;
+}
+
+body {
+    background-color: #d3c6c6;
+    background-image: url(./bg-01.jpg);
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc
+}
+
+footer p {
+    padding: 15px;
+}
+
+.error-message {
+    color: #a94442;
+}
+
+.error-message:first-letter {
+    text-transform: capitalize;
+}
