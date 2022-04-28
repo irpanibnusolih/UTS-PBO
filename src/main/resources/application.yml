@@ -2,16 +2,16 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/uts_pbo?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Jakarta&useSSL=false
-    username: root
-    password:
+    url:  jdbc:postgresql://ec2-54-80-122-11.compute-1.amazonaws.com/d6lj1p7p2rphc1
+    username: jxpjsszldjvego
+    password: 1155c686cf9c0e02e58884486700bcd0920f83b4a6162d4c8cd9cde1260cfdd5
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
   messages:
     basename: base
   mail:
