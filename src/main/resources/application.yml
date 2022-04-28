@@ -1,8 +1,8 @@
 server:
-  port: 8080
+  port: 5432
 spring:
   datasource:
-    url:  jdbc:postgresql://ec2-54-80-122-11.compute-1.amazonaws.com/d6lj1p7p2rphc1
+    url: jdbc:postgresql://ec2-54-80-122-11.compute-1.amazonaws.com:5432/d6lj1p7p2rphc1
     username: jxpjsszldjvego
     password: 1155c686cf9c0e02e58884486700bcd0920f83b4a6162d4c8cd9cde1260cfdd5
   jpa:
